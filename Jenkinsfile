@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                bat 'java Main 1'
+                bat 'java Main hello'
             }
         }
         stage('Deploy') {
